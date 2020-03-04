@@ -1,3 +1,4 @@
 module "vpc" {
-  source = "terraform-aws-modules/vpc/aws"
+  source  = "app.terraform.io/sql/vpc/aws"
+  version = "2.25.0"
 }
